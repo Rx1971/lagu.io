@@ -1,0 +1,62 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/bg.jpg');
+    background-size: cover;
+}
+
+
+.container-fluid {
+justify-content: center; 
+align-items: center; 
+}
+
+.food-card {
+background-color: white;
+width: 120px;
+height: 160px;
+padding: 10px;
+border-radius: 20px;
+box-shadow: 14px 18px 48px -7px rgba(123, 123, 123, 0.34);
+-webkit-box-shadow: 14px 18px 48px -7px rgba(123, 123, 123, 0.34);
+-moz-box-shadow: 14px 18px 48px -7px rgba(123, 123, 123, 0.34);
+font-weight: bold;
+font-family: 'Poppins', sans-serif;
+font-size: 12px;
+transition: transform 0.2s;
+margin-right: 20px;
+margin-bottom: 20px;
+}
+
+
+.food-card:hover {
+transform: scale(1.15);
+}
+
+.item-image {
+height: 80px;
+width: 80px;
+border-radius: 50%;
+overflow: hidden;
+margin: 0 auto 10px;
+}
+
+.item-image img {
+height: 100%;
+width: 100%;
+}
+
+.item-name {
+text-align: center;
+padding-top: 10px;
+font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 300px) {
+.food-card {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+}
